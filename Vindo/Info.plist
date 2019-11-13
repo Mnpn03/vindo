@@ -118,7 +118,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2015 Theodore Dubois. All rights reserved.</string>
+	<string>Copyright © 2019 Theodore Dubois. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -191,7 +191,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>VDAnalyticsDomain</key>
-	<string>vindo-analytics-dev.herokuapp.com</string>
 </dict>
 </plist>

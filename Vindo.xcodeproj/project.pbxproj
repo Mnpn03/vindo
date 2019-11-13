@@ -12,7 +12,6 @@
 		8A041E9F1BFBFF0400D60E08 /* PopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A041E9E1BFBFF0400D60E08 /* PopupController.m */; };
 		8A22BA5D1C18C165002B4351 /* NSObject+Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A22BA5C1C18C165002B4351 /* NSObject+Notifications.m */; };
 		8A23F3C01AA91EF600F1467C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A23F3BE1AA91EF600F1467C /* MainMenu.xib */; };
-		8A341B681BFD490800207E6C /* AnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A341B671BFD490800207E6C /* AnalyticsController.m */; };
 		8A341B6D1BFD50D200207E6C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A341B6C1BFD50D200207E6C /* IOKit.framework */; };
 		8A36AF541C1F4D1B0012D115 /* StartMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36AF521C1F4D1B0012D115 /* StartMenuViewController.m */; };
 		8A36AF551C1F4D1B0012D115 /* StartMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A36AF531C1F4D1B0012D115 /* StartMenuViewController.xib */; };
@@ -63,11 +62,6 @@
 		BB4DE51E1CC151D5006DFF3A /* executable.icns in Resources */ = {isa = PBXBuildFile; fileRef = BB4DE51D1CC151D5006DFF3A /* executable.icns */; };
 		BB4DE5201CC154A2006DFF3A /* file.icns in Resources */ = {isa = PBXBuildFile; fileRef = BB4DE51F1CC154A2006DFF3A /* file.icns */; };
 		BB57B9661C4879E500331BA4 /* StartMenuCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB57B9651C4879E500331BA4 /* StartMenuCollectionView.m */; };
-		BB5E24641D7E160700CD9DE7 /* MessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E24631D7E160700CD9DE7 /* MessagesController.m */; };
-		BB5E24691D7E168000CD9DE7 /* MessagesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E24671D7E168000CD9DE7 /* MessagesWindowController.m */; };
-		BB5E246A1D7E168000CD9DE7 /* MessagesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5E24681D7E168000CD9DE7 /* MessagesWindowController.xib */; };
-		BB5E246E1D7E178B00CD9DE7 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E246D1D7E178B00CD9DE7 /* Message.m */; };
-		BB5E24711D7E183000CD9DE7 /* MessageCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E24701D7E183000CD9DE7 /* MessageCommunicator.m */; };
 		BB7303521C388784004B4375 /* AppBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7303511C388784004B4375 /* AppBundle.m */; };
 		BBBCEAA81C3C8E8D00E5E175 /* WindowsProgramApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCEAA71C3C8E8D00E5E175 /* WindowsProgramApplication.m */; };
 		BBBCEAAD1C3DE10700E5E175 /* AppBundleConnectionThingImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCEAAC1C3DE10700E5E175 /* AppBundleConnectionThingImpl.m */; };
@@ -79,7 +73,6 @@
 		BBF18B7C1C433F150060092B /* NSUserDefaults+KeyPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF18B7B1C433F150060092B /* NSUserDefaults+KeyPaths.m */; };
 		BBF27D2C1C52A98A00EE7C65 /* Status.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABB4AC41AB8DE7B00CDB93C /* Status.xib */; };
 		BBF27D2D1C52A98A00EE7C65 /* ManageWorlds.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0580781ABE13F300854813 /* ManageWorlds.xib */; };
-		BBF41C041D7E2B7000B2D224 /* ChatTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF41C031D7E2B7000B2D224 /* ChatTemplate.png */; };
 		BBF5FC741C4C7A0B00C18FCC /* NoProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5FC721C4C7A0B00C18FCC /* NoProgramsViewController.m */; };
 		BBF5FC751C4C7A0B00C18FCC /* NoProgramsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF5FC731C4C7A0B00C18FCC /* NoProgramsViewController.xib */; };
 		BBF9D3901CB5FFEB003FCED3 /* RunWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9D38E1CB5FFEB003FCED3 /* RunWindowController.m */; };
@@ -123,8 +116,6 @@
 		8A22BA5C1C18C165002B4351 /* NSObject+Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Notifications.m"; sourceTree = "<group>"; };
 		8A23F3BD1AA91EF600F1467C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A23F3BE1AA91EF600F1467C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		8A341B661BFD490800207E6C /* AnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsController.h; sourceTree = "<group>"; };
-		8A341B671BFD490800207E6C /* AnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsController.m; sourceTree = "<group>"; };
 		8A341B6C1BFD50D200207E6C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		8A36AF511C1F4D1B0012D115 /* StartMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuViewController.h; sourceTree = "<group>"; };
 		8A36AF521C1F4D1B0012D115 /* StartMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMenuViewController.m; sourceTree = "<group>"; };
@@ -208,15 +199,6 @@
 		BB4DE51F1CC154A2006DFF3A /* file.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = file.icns; sourceTree = "<group>"; };
 		BB57B9641C4879E500331BA4 /* StartMenuCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuCollectionView.h; sourceTree = "<group>"; };
 		BB57B9651C4879E500331BA4 /* StartMenuCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMenuCollectionView.m; sourceTree = "<group>"; };
-		BB5E24621D7E160700CD9DE7 /* MessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesController.h; sourceTree = "<group>"; };
-		BB5E24631D7E160700CD9DE7 /* MessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesController.m; sourceTree = "<group>"; };
-		BB5E24661D7E168000CD9DE7 /* MessagesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesWindowController.h; sourceTree = "<group>"; };
-		BB5E24671D7E168000CD9DE7 /* MessagesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesWindowController.m; sourceTree = "<group>"; };
-		BB5E24681D7E168000CD9DE7 /* MessagesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesWindowController.xib; sourceTree = "<group>"; };
-		BB5E246C1D7E178B00CD9DE7 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		BB5E246D1D7E178B00CD9DE7 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		BB5E246F1D7E183000CD9DE7 /* MessageCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCommunicator.h; sourceTree = "<group>"; };
-		BB5E24701D7E183000CD9DE7 /* MessageCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCommunicator.m; sourceTree = "<group>"; };
 		BB7303501C388784004B4375 /* AppBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBundle.h; sourceTree = "<group>"; };
 		BB7303511C388784004B4375 /* AppBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBundle.m; sourceTree = "<group>"; };
 		BBBCEAA61C3C8E8D00E5E175 /* WindowsProgramApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsProgramApplication.h; sourceTree = "<group>"; };
@@ -234,7 +216,6 @@
 		BBCEC3191C5C264400D72F2A /* Filetype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filetype.m; sourceTree = "<group>"; };
 		BBDE964D1D7FB787001BA43B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BBF18B7B1C433F150060092B /* NSUserDefaults+KeyPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+KeyPaths.m"; sourceTree = "<group>"; };
-		BBF41C031D7E2B7000B2D224 /* ChatTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatTemplate.png; sourceTree = "<group>"; };
 		BBF5FC711C4C7A0B00C18FCC /* NoProgramsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoProgramsViewController.h; sourceTree = "<group>"; };
 		BBF5FC721C4C7A0B00C18FCC /* NoProgramsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoProgramsViewController.m; sourceTree = "<group>"; };
 		BBF5FC731C4C7A0B00C18FCC /* NoProgramsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoProgramsViewController.xib; sourceTree = "<group>"; };
@@ -308,7 +289,6 @@
 		8A655B7C1AA6773E00FFCD0C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BBF41C031D7E2B7000B2D224 /* ChatTemplate.png */,
 				8A6E189E1C03B963003E9F58 /* SoftwareUpdate.icns */,
 				BB217E551CD42E92007ED318 /* PowerTemplate.png */,
 				8A23F3BE1AA91EF600F1467C /* MainMenu.xib */,
@@ -331,7 +311,6 @@
 				8A6E189C1C03B5C2003E9F58 /* Preferences */,
 				BBF9D3921CB5FFEF003FCED3 /* Run */,
 				8ABB4AC11AB8D8FF00CDB93C /* Status */,
-				BB5E246B1D7E16B700CD9DE7 /* Messages */,
 			);
 			name = Windows;
 			path = Vindo;
@@ -382,7 +361,6 @@
 				AC9681BC1ABCD57400A9233B /* Worlds */,
 				8A6880A61BC3330C0032352B /* Start */,
 				BBCEC3141C5C1B8F00D72F2A /* Filetypes */,
-				BB5E24651D7E160A00CD9DE7 /* Messages */,
 			);
 			name = Models;
 			path = Vindo;
@@ -450,8 +428,6 @@
 				AC5AC3501B3E1E5900538492 /* LaunchController.m */,
 				ACDE7B151BAB76E100A37DE2 /* FirstTimeSetupController.h */,
 				ACDE7B161BAB76E100A37DE2 /* FirstTimeSetupController.m */,
-				8A341B661BFD490800207E6C /* AnalyticsController.h */,
-				8A341B671BFD490800207E6C /* AnalyticsController.m */,
 				8AC01D611ABB879D00F8C066 /* WorldsMenuController.h */,
 				8AC01D621ABB879D00F8C066 /* WorldsMenuController.m */,
 				BBBCEAAE1C3DE15200E5E175 /* ABCTController.h */,
@@ -563,29 +539,6 @@
 			name = Worlds;
 			sourceTree = "<group>";
 		};
-		BB5E24651D7E160A00CD9DE7 /* Messages */ = {
-			isa = PBXGroup;
-			children = (
-				BB5E246C1D7E178B00CD9DE7 /* Message.h */,
-				BB5E246D1D7E178B00CD9DE7 /* Message.m */,
-				BB5E246F1D7E183000CD9DE7 /* MessageCommunicator.h */,
-				BB5E24701D7E183000CD9DE7 /* MessageCommunicator.m */,
-				BB5E24621D7E160700CD9DE7 /* MessagesController.h */,
-				BB5E24631D7E160700CD9DE7 /* MessagesController.m */,
-			);
-			name = Messages;
-			sourceTree = "<group>";
-		};
-		BB5E246B1D7E16B700CD9DE7 /* Messages */ = {
-			isa = PBXGroup;
-			children = (
-				BB5E24661D7E168000CD9DE7 /* MessagesWindowController.h */,
-				BB5E24671D7E168000CD9DE7 /* MessagesWindowController.m */,
-				BB5E24681D7E168000CD9DE7 /* MessagesWindowController.xib */,
-			);
-			name = Messages;
-			sourceTree = "<group>";
-		};
 		BBBCEAA91C3DD66F00E5E175 /* DO */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,22 +620,24 @@
 		AC3A4ED41AA12F9900781626 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Theodore Dubois";
 				TargetAttributes = {
 					8A5B97531C24DF24001FF0EF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 35BSP6SUG9;
+						ProvisioningStyle = Automatic;
 					};
 					AC3A4EDB1AA12F9900781626 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = W2NF7BNM62;
+						DevelopmentTeam = 35BSP6SUG9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = AC3A4ED71AA12F9900781626 /* Build configuration list for PBXProject "Vindo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -725,11 +680,9 @@
 				8A6E189B1C03B5BF003E9F58 /* UpdatePreferencesViewController.xib in Resources */,
 				BBF27D2C1C52A98A00EE7C65 /* Status.xib in Resources */,
 				BBF27D2D1C52A98A00EE7C65 /* ManageWorlds.xib in Resources */,
-				BB5E246A1D7E168000CD9DE7 /* MessagesWindowController.xib in Resources */,
 				BB4DE5201CC154A2006DFF3A /* file.icns in Resources */,
 				BBF9D3911CB5FFEB003FCED3 /* RunWindowController.xib in Resources */,
 				8A36AF551C1F4D1B0012D115 /* StartMenuViewController.xib in Resources */,
-				BBF41C041D7E2B7000B2D224 /* ChatTemplate.png in Resources */,
 				BBF5FC751C4C7A0B00C18FCC /* NoProgramsViewController.xib in Resources */,
 				8A041E9B1BFBFD4100D60E08 /* Popup.xib in Resources */,
 				8A66CCB61BACCC9E00D7E592 /* statusbar.tiff in Resources */,
@@ -837,7 +790,6 @@
 				8A713E0F1C249BB800918B1A /* World+StartMenu.m in Sources */,
 				8AC01D6C1ABB930F00F8C066 /* IndexSetToIntTransformer.m in Sources */,
 				BB094B2A1C56D54B006C0AB0 /* ManageWorldsWindowController+Operations.m in Sources */,
-				BB5E24641D7E160700CD9DE7 /* MessagesController.m in Sources */,
 				BB4DE51A1CC02746006DFF3A /* SketchyMode.m in Sources */,
 				ACDE7B171BAB76E100A37DE2 /* FirstTimeSetupController.m in Sources */,
 				8AC01D5B1ABB72E200F8C066 /* World.m in Sources */,
@@ -855,19 +807,15 @@
 				8A36AF541C1F4D1B0012D115 /* StartMenuViewController.m in Sources */,
 				AC5219041B225BBC004A322E /* WorldsController.m in Sources */,
 				BBCEC3131C5ABFB700D72F2A /* NSURL+Relativize.m in Sources */,
-				BB5E24711D7E183000CD9DE7 /* MessageCommunicator.m in Sources */,
 				8A713E0C1C249AB400918B1A /* World+PasteboardSupport.m in Sources */,
 				AC05808C1ABF97F700854813 /* ManageWorldsWindowController.m in Sources */,
 				BBBCEAAD1C3DE10700E5E175 /* AppBundleConnectionThingImpl.m in Sources */,
 				8A041E9F1BFBFF0400D60E08 /* PopupController.m in Sources */,
 				AC5E86151C2363C40027FB80 /* ImageResizingValueTransformer.m in Sources */,
-				BB5E24691D7E168000CD9DE7 /* MessagesWindowController.m in Sources */,
-				BB5E246E1D7E178B00CD9DE7 /* Message.m in Sources */,
 				AC3A4EE21AA12F9A00781626 /* main.m in Sources */,
 				BB153D1E1C7E73A9006905DC /* Parsing.m in Sources */,
 				8AC01C321C03E0A0004FEF69 /* LaunchAtLoginController.m in Sources */,
 				AC9681BF1ABCD59D00A9233B /* WorldsTransformer.m in Sources */,
-				8A341B681BFD490800207E6C /* AnalyticsController.m in Sources */,
 				8A6880AC1BC3336E0032352B /* StartMenuController.m in Sources */,
 				BBF9D3901CB5FFEB003FCED3 /* RunWindowController.m in Sources */,
 				8A36AF591C1F530D0012D115 /* SetupViewController.m in Sources */,
@@ -909,11 +857,14 @@
 		8A5B97621C24DF24001FF0EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 35BSP6SUG9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Windows Program/Info.plist";
@@ -921,25 +872,30 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.vindo.Windows-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = i386;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		8A5B97631C24DF24001FF0EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 35BSP6SUG9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Windows Program/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.vindo.Windows-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = i386;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -948,22 +904,34 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_NUM = 1.0.1;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -992,17 +960,28 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_NUM = 1.0.1;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1029,10 +1008,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86910AAF59F070ED1ED06789 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 35BSP6SUG9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1052,10 +1032,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A16529B78CFC04B47D2FCD0 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 35BSP6SUG9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

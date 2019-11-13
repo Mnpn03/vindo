@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11198.2" systemVersion="16A313a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11198.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -25,7 +25,6 @@
         <customObject id="Tgj-e0-ddB" customClass="StartMenuController"/>
         <customObject id="gYO-gS-fC3" customClass="PopupController"/>
         <customObject id="kjr-LO-PqR" customClass="SUUpdater"/>
-        <customObject id="2iM-kO-TUX" customClass="AnalyticsController"/>
         <customObject id="laL-ZB-drS" customClass="ABCTController"/>
         <customObject id="BGb-aC-7ER" customClass="RunWindowController">
             <connections>
@@ -33,10 +32,5 @@
             </connections>
         </customObject>
         <customObject id="xKf-qV-D38" customClass="SketchyMode"/>
-        <customObject id="uYO-3X-GrR" customClass="MessagesController">
-            <connections>
-                <outlet property="analytics" destination="2iM-kO-TUX" id="YJ1-rj-7F8"/>
-            </connections>
-        </customObject>
     </objects>
 </document>

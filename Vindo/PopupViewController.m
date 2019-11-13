@@ -12,7 +12,6 @@
 #import "StartMenuViewController.h"
 #import "NoProgramsViewController.h"
 #import "StartMenuController.h"
-#import "MessagesController.h"
 
 @interface PopupViewController ()
 
@@ -25,8 +24,6 @@
 @property (nonatomic) NSViewController *importantViewController;
 @property IBOutlet NSView *placeholderView;
 @property IBOutlet NSPopUpButton *actionButton;
-
-@property (weak) IBOutlet NSButton *messagesButton;
 
 @property (weak) IBOutlet NSMenu *popupMenu;
 @property (weak) IBOutlet NSMenu *worldsMenu;
@@ -53,9 +50,6 @@
                selector:@selector(makeDefaultImportant:)
                    name:@"MakeDefaultImportant"
                  object:nil];
-    
-    NSButtonCell *messagesCell = self.messagesButton.cell;
-    messagesCell.highlightsBy = NSPushInCellMask;
     
     [self findMathConstants];
     
@@ -84,11 +78,7 @@
                selector:@selector(menuItemWasClicked:)
                    name:NSMenuDidSendActionNotification
                  object:self.worldsMenu];
-    
-    [center addObserver:self
-               selector:@selector(setUnreadCount:)
-                   name:SetUnreadMessagesCountNotification
-                 object:nil];
+
 }
 
 - (void)firstTimeSetupStarted:(NSNotification *)notification {
@@ -137,13 +127,11 @@
 static CGFloat bottomPadding;
 static CGFloat actionY;
 static CGFloat actionRightPadding;
-static CGFloat messagesY;
 
 - (void)findMathConstants {
     bottomPadding = self.placeholderView.frame.origin.y;
     actionY = self.actionButton.frame.origin.y;
     actionRightPadding = self.view.frame.size.width - self.actionButton.frame.origin.x;
-    messagesY = self.messagesButton.frame.origin.y;
 }
 
 - (void)doTheMath {
@@ -155,25 +143,9 @@ static CGFloat messagesY;
     actionFrame.origin.x = self.view.frame.size.width - actionRightPadding;
     self.actionButton.frame = actionFrame;
     
-    NSRect messagesFrame = self.messagesButton.frame;
-    messagesFrame.origin.y = messagesY;
-    self.messagesButton.frame = messagesFrame;
-    
     [self.importantViewController.view setFrameOrigin:NSMakePoint(0, bottomPadding)];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ReshowPopup" object:self];
-}
-
-- (void)setUnreadCount:(NSNotification *)n {
-    NSUInteger unreadCount = [n.userInfo[@"unreadCount"] unsignedIntegerValue];
-    if (unreadCount > 0)
-        self.messagesButton.title = [NSString stringWithFormat:@"%lu", unreadCount];
-    else
-        self.messagesButton.title = @"";
-}
-
-- (IBAction)openMessages:(id)sender {
-    [[NSNotificationCenter defaultCenter] postNotificationName:ShowMessagesWindowNotification object:nil];
 }
 
 @end
