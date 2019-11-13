@@ -54,6 +54,7 @@
 		ACD830041B8D346900D8F285 /* usr in Resources */ = {isa = PBXBuildFile; fileRef = ACD830031B8D346900D8F285 /* usr */; };
 		ACDE7B171BAB76E100A37DE2 /* FirstTimeSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7B161BAB76E100A37DE2 /* FirstTimeSetupController.m */; };
 		ACE47E981C0923C70001808C /* StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE47E971C0923C70001808C /* StatusBarView.m */; };
+		B7ED816F8D0A862D38BC7557 /* Pods_Windows_Program.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E627429EA766A293E3FA05D9 /* Pods_Windows_Program.framework */; };
 		BB094B2A1C56D54B006C0AB0 /* ManageWorldsWindowController+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = BB094B291C56D54B006C0AB0 /* ManageWorldsWindowController+Operations.m */; };
 		BB153D1E1C7E73A9006905DC /* Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = BB153D1D1C7E73A9006905DC /* Parsing.m */; };
 		BB217E561CD42E92007ED318 /* PowerTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = BB217E551CD42E92007ED318 /* PowerTemplate.png */; };
@@ -77,7 +78,7 @@
 		BBF5FC751C4C7A0B00C18FCC /* NoProgramsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF5FC731C4C7A0B00C18FCC /* NoProgramsViewController.xib */; };
 		BBF9D3901CB5FFEB003FCED3 /* RunWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9D38E1CB5FFEB003FCED3 /* RunWindowController.m */; };
 		BBF9D3911CB5FFEB003FCED3 /* RunWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF9D38F1CB5FFEB003FCED3 /* RunWindowController.xib */; };
-		F6D3954A9DA48257AC7EF798 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 258CC4B79A56F9EFB6956C3A /* libPods.a */; };
+		DAE04051398D23899747BD84 /* Pods_Vindo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354116C7212E22975A078EB /* Pods_Vindo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,9 +105,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		258CC4B79A56F9EFB6956C3A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A16529B78CFC04B47D2FCD0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		86910AAF59F070ED1ED06789 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7354116C7212E22975A078EB /* Pods_Vindo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vindo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A0A6B40D9511263EE18421 /* Pods-Vindo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vindo.debug.xcconfig"; path = "Target Support Files/Pods-Vindo/Pods-Vindo.debug.xcconfig"; sourceTree = "<group>"; };
+		895D28D3C7913E3E1BEEBAF1 /* Pods-Windows Program.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windows Program.release.xcconfig"; path = "Target Support Files/Pods-Windows Program/Pods-Windows Program.release.xcconfig"; sourceTree = "<group>"; };
 		8A041E971BFBFD4100D60E08 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
 		8A041E981BFBFD4100D60E08 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
 		8A041E991BFBFD4100D60E08 /* Popup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Popup.xib; sourceTree = "<group>"; };
@@ -222,6 +223,9 @@
 		BBF9D38D1CB5FFEB003FCED3 /* RunWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunWindowController.h; sourceTree = "<group>"; };
 		BBF9D38E1CB5FFEB003FCED3 /* RunWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunWindowController.m; sourceTree = "<group>"; };
 		BBF9D38F1CB5FFEB003FCED3 /* RunWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunWindowController.xib; sourceTree = "<group>"; };
+		D3ED36CF56E149AED4374092 /* Pods-Vindo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vindo.release.xcconfig"; path = "Target Support Files/Pods-Vindo/Pods-Vindo.release.xcconfig"; sourceTree = "<group>"; };
+		E627429EA766A293E3FA05D9 /* Pods_Windows_Program.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windows_Program.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD118C529FAB16CFFDEB29A0 /* Pods-Windows Program.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windows Program.debug.xcconfig"; path = "Target Support Files/Pods-Windows Program/Pods-Windows Program.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7ED816F8D0A862D38BC7557 /* Pods_Windows_Program.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +245,7 @@
 				BB4DE51C1CC02D02006DFF3A /* SecurityFoundation.framework in Frameworks */,
 				8A341B6D1BFD50D200207E6C /* IOKit.framework in Frameworks */,
 				AC13F0A21ADB6A1000254D1F /* CoreServices.framework in Frameworks */,
-				F6D3954A9DA48257AC7EF798 /* libPods.a in Frameworks */,
+				DAE04051398D23899747BD84 /* Pods_Vindo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,15 +390,6 @@
 			name = LaunchAtLogin;
 			sourceTree = "<group>";
 		};
-		9FFB8ECE6E30A2F5D4C08FBB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				86910AAF59F070ED1ED06789 /* Pods.debug.xcconfig */,
-				3A16529B78CFC04B47D2FCD0 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		AC1957C21AA52AB50077A25C /* Worlds Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,7 +408,8 @@
 				BB4DE51B1CC02D02006DFF3A /* SecurityFoundation.framework */,
 				8A341B6C1BFD50D200207E6C /* IOKit.framework */,
 				AC13F0A11ADB6A1000254D1F /* CoreServices.framework */,
-				258CC4B79A56F9EFB6956C3A /* libPods.a */,
+				7354116C7212E22975A078EB /* Pods_Vindo.framework */,
+				E627429EA766A293E3FA05D9 /* Pods_Windows_Program.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -452,7 +449,7 @@
 				AC3A4EDF1AA12F9A00781626 /* Supporting Files */,
 				AC1957D01AA52BB10077A25C /* Frameworks */,
 				AC3A4EDD1AA12F9900781626 /* Products */,
-				9FFB8ECE6E30A2F5D4C08FBB /* Pods */,
+				E5002AF3244C93E3DD36AC58 /* Pods */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -570,6 +567,18 @@
 			name = Run;
 			sourceTree = "<group>";
 		};
+		E5002AF3244C93E3DD36AC58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85A0A6B40D9511263EE18421 /* Pods-Vindo.debug.xcconfig */,
+				D3ED36CF56E149AED4374092 /* Pods-Vindo.release.xcconfig */,
+				FD118C529FAB16CFFDEB29A0 /* Pods-Windows Program.debug.xcconfig */,
+				895D28D3C7913E3E1BEEBAF1 /* Pods-Windows Program.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -577,6 +586,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5B97641C24DF24001FF0EF /* Build configuration list for PBXNativeTarget "Windows Program" */;
 			buildPhases = (
+				6D15B05CA237C8516DD7E6D7 /* [CP] Check Pods Manifest.lock */,
 				8A5B97501C24DF24001FF0EF /* Sources */,
 				8A5B97511C24DF24001FF0EF /* Frameworks */,
 				8A5B97521C24DF24001FF0EF /* Resources */,
@@ -594,15 +604,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3A4EF91AA12F9B00781626 /* Build configuration list for PBXNativeTarget "Vindo" */;
 			buildPhases = (
-				B73ECF95665174C9AAD35B8D /* Check Pods Manifest.lock */,
+				595D242A6B09B8ACA11DA7A2 /* [CP] Check Pods Manifest.lock */,
 				ACD830021B8D2ED100D8F285 /* Download Latest Wine */,
 				ACCF37581BA66EAC0043FF40 /* Unzip Wine */,
 				AC3A4ED81AA12F9900781626 /* Sources */,
 				AC3A4ED91AA12F9900781626 /* Frameworks */,
 				AC3A4EDA1AA12F9900781626 /* Resources */,
 				AC1957DF1AA52D920077A25C /* Embed Frameworks */,
-				D8982C6B9B9C3B27DCB07C30 /* Copy Pods Resources */,
-				6A71E5556B073DB807F0751E /* Embed Pods Frameworks */,
+				3CD5F1EDE2ABD8E9EA8351D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -692,19 +701,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6A71E5556B073DB807F0751E /* Embed Pods Frameworks */ = {
+		3CD5F1EDE2ABD8E9EA8351D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vindo/Pods-Vindo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDEvents/CDEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/RHPreferences/RHPreferences.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RHPreferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vindo/Pods-Vindo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595D242A6B09B8ACA11DA7A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vindo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D15B05CA237C8516DD7E6D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Windows Program-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACCF37581BA66EAC0043FF40 /* Unzip Wine */ = {
@@ -738,36 +804,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ $SRCROOT/Wine/wine.zip -ot $SRCROOT/Wine/wine.url ]; then\n    curl -Lo $SRCROOT/Wine/wine.zip `cat $SRCROOT/Wine/wine.url`\nfi\n";
-		};
-		B73ECF95665174C9AAD35B8D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D8982C6B9B9C3B27DCB07C30 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -856,6 +892,7 @@
 /* Begin XCBuildConfiguration section */
 		8A5B97621C24DF24001FF0EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD118C529FAB16CFFDEB29A0 /* Pods-Windows Program.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -879,6 +916,7 @@
 		};
 		8A5B97631C24DF24001FF0EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895D28D3C7913E3E1BEEBAF1 /* Pods-Windows Program.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1006,7 +1044,7 @@
 		};
 		AC3A4EFA1AA12F9B00781626 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86910AAF59F070ED1ED06789 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 85A0A6B40D9511263EE18421 /* Pods-Vindo.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1017,7 +1055,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = $SRCROOT/Vindo/Vindo.pch;
+				GCC_PREFIX_HEADER = "$SRCROOT/Vindo/Vindo.pch";
 				INFOPLIST_FILE = Vindo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -1030,7 +1068,7 @@
 		};
 		AC3A4EFB1AA12F9B00781626 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A16529B78CFC04B47D2FCD0 /* Pods.release.xcconfig */;
+			baseConfigurationReference = D3ED36CF56E149AED4374092 /* Pods-Vindo.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1041,7 +1079,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = $SRCROOT/Vindo/Vindo.pch;
+				GCC_PREFIX_HEADER = "$SRCROOT/Vindo/Vindo.pch";
 				INFOPLIST_FILE = Vindo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;

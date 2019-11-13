@@ -1,0 +1,6 @@
+framework module RHPreferences {
+  umbrella header "RHPreferences-umbrella.h"
+
+  export *
+  module * { export * }
+}
