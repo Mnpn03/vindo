@@ -80,15 +80,8 @@
                                         <action selector="sendFeedback:" target="-1" id="Ezr-gf-y2Y"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Send Compatibility Report…" id="07F-FO-YHE">
-                                    <modifierMask key="keyEquivalentModifierMask"/>
-                                    <connections>
-                                        <action selector="sendCompatibilityReport:" target="-1" id="Osr-94-ced"/>
-                                    </connections>
-                                </menuItem>
                                 <menuItem isSeparatorItem="YES" id="ab7-Dj-CWZ"/>
-                                <menuItem title="Preferences..." id="kko-nB-iyX">
-                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                <menuItem title="Preferences..." keyEquivalent="," id="kko-nB-iyX">
                                     <connections>
                                         <action selector="showPreferences:" target="-1" id="YEn-yL-yOY"/>
                                     </connections>
@@ -99,8 +92,7 @@
                                         <action selector="orderFrontStandardAboutPanel:" target="-1" id="aLM-x8-EqK"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Quit" id="rX4-MS-N6q">
-                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                <menuItem title="Quit" keyEquivalent="q" id="rX4-MS-N6q">
                                     <connections>
                                         <action selector="terminate:" target="-1" id="JbM-E0-WK5"/>
                                     </connections>
