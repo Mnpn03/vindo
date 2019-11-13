@@ -146,7 +146,7 @@ static char __wine_shared_heap[0x03000000] __attribute__((section("WINE_SHAREDHE
     NSString *argv0 = [usr URLByAppendingPathComponent:@"bin/wine"].path;
     NSArray *args = [@[argv0, program] arrayByAddingObjectsFromArray:arguments];
     const char **argv = [self buildArgv:args];
-    wine_init(args.count, argv, error, sizeof(error));
+    wine_init((int)args.count, argv, error, sizeof(error));
     
     //[self failBecause:[NSString stringWithUTF8String:error]];
 }
