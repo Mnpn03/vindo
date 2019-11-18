@@ -57,7 +57,7 @@ static NSString *scanToken(NSScanner *scanner) {
     return token;
 }
 
-NSString *windowsPathFromUnixPath(NSString *unix, World *world) {
+NSString *windowsPathFromUnixPath(NSString *unix, World *world) { // path, world
     NSURL *url = [NSURL fileURLWithPath:unix];
     NSFileManager *fm = [NSFileManager defaultManager];
     for (NSURL *driveLink in [fm contentsOfDirectoryAtURL:[world.url URLByAppendingPathComponent:@"dosdevices"]
@@ -81,7 +81,13 @@ NSString *windowsPathFromUnixPath(NSString *unix, World *world) {
         }
     }
     // this can't happen because there's a Z drive that matches any path that fails all other drives
-    NSCAssert(NO, @"BAD STUFFZ HAPPAND");
+    NSAlert *alert = [NSAlert alertWithMessageText:@"An error occured"
+                defaultButton:@"Oh no.."
+              alternateButton:nil
+                  otherButton:nil
+    informativeTextWithFormat:@"No dosdrives were found."];
+    [alert runModal];
+    NSCAssert(NO, @"Clearly, no dosdrives were found.");
     return nil;
 }
 
